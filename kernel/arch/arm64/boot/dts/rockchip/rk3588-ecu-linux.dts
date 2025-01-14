@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright (c) 2022 Rockchip Electronics Co., Ltd.
+ *
+ */
+
+/dts-v1/;
+
+#include "rk3588-ecu-lp4.dtsi"
+//#include "rk3588-evb7-imx415.dtsi"
+#include "rk3588-linux.dtsi"
+
+/ {
+	model = "FEP RK3588 LP4 Board";
+	compatible = "PCI,rk3588-fep-lp4-v10", "rockchip,rk3588";
+};
